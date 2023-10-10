@@ -1,4 +1,20 @@
-:root
-{
-    
+*{
+    font-family: 'Times New Roman', Times, serif
+    color: navy;
+    box-sizing: content-box;
+}
+
+.page-content{
+    background-color: rgb(184, 176, 176);
+    text-align: center;
+}
+
+header, footer{
+    background-color: rgb(224, 228, 228);
+    padding: 40px;
+    text-align: center;
+}
+
+.instructions{
+    font-size: 1.1rem;
 }
