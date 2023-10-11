@@ -2,7 +2,6 @@
     font-family: 'Poppins';
 }
 
-<<<<<<< HEAD
 .navbar {
     background-color: #333333;
     display: flex;
@@ -14,17 +13,6 @@
 .navbar-center {
     width: 80%;
     height: 100%;
-=======
-.page-content{
-    background-color: rgba(170, 149, 149, 0.336);
-    text-align: center;
-}
-
-header, footer{
-    background-color: rgba(224, 228, 228, 0.333);
-    padding: 40px;
-    text-align: center;
->>>>>>> 41b771368a0b4864c57a89d78cbff5b29da132d7
 }
 
 .navbar-item img {
