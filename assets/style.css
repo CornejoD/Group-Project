@@ -5,13 +5,13 @@
 }
 
 .page-content{
-    background-color: rgba(170, 149, 149, 0.336);
+    background-color: #f6f2f2;
     text-align: center;
 }
 
 header, footer{
-    background-color: rgba(224, 228, 228, 0.333);
-    padding: 40px;
+    background-color: rgb(248, 248, 248);
+    padding: 0px;
     text-align: center;
 }
 
