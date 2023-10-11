@@ -1,20 +1,98 @@
-*{
-    font-family: 'Times New Roman', Times, serif;
-    color: navy;
-    box-sizing: content-box;
+* {
+    font-family: 'Poppins';
 }
 
-.page-content{
-    background-color: rgb(184, 176, 176);
-    text-align: center;
+.navbar {
+    background-color: #333333;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header, footer{
-    background-color: rgb(224, 228, 228);
-    padding: 40px;
-    text-align: center;
+.navbar-center {
+    width: 80%;
+    height: 100%;
 }
 
-.instructions{
-    font-size: 1.1rem;
+.navbar-item img {
+    height: 30%; 
+    width: 45vh; 
+    max-height: none;
+}
+
+.nav-txt-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-center h2 {
+    height: 100%;
+    width: 70vh;
+    color: white;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    padding: 10px 100px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+        background-color: #555555;
+    }
+}
+
+.league-item {
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+
+.league-item:last-child {
+    border-right: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar-end {
+    margin-right: 70px;
+}
+
+.navbar-end .navbar-item {
+    padding: 25px;
+}
+
+.navbar-end .league-item:hover {
+    color: lightblue;
 }
