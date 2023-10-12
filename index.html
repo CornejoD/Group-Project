@@ -1,36 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Group Project</title>
+  <!DOCTYPE html>
+  <html lang="en">
 
-    <link rel="stylesheet" href="./assets/style.css">
-    
-</head>
-<body>
-    <header>
-        <h1>Project Description</h1>
-    </header>
-    <main>
-        <header>
-            Live Sport USA
-        </header>
-        <form id="Search">
-        <input id="search-input">
-            <label>Search Sport</label> 
-        </input>
-        <select id="select-input">
-            <option value="" disabled selected>select a sport</option>
-            <option value="NBA">NBA</option>
-            <option value="MLB">MLB</option>
-            <option value="NFL">NFL</option>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Live Sport USA!</title>
+      <link rel="stylesheet" href="./assets/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
 
-        </select> 
-        <button class="btn">Search</button>
-    </form>
-    </main>
-     
-    <script src="assets/script.js"></script>
-</body>
+  <body class="content">
+
+      <main>
+        <nav class="navbar has-text-centered">
+              <a class="navbar-item" href="#">
+                <img src="./assets/2.png"Logo">
+              </a>
+              <div class="nav-txt-container has-text-centered">
+                <div class="navbar-center ">
+                  <h2>"Stay Ahead with Real-time Results."</h2>
+                </div>
+              </div>
+              <div class="navbar-end">
+                <a class="navbar-item league-item" href="#">NBA</a>
+                <a class="navbar-item league-item" href="#">NFL</a>
+                <a class="navbar-item league-item" href="#">MLB</a>
+              </div>
+          </div>
+      </nav>
+      <div class="main-container">
+      <div class="search-game-container">
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Search team or league">
+          <button class="search-btn">Search</button>
+        </div>
+        <div class="past-games">
+          <h4>Upcoming Games</h4>
+          <div class="game-box" id="game1">
+            <div class="team">
+              <div class="team-content">
+                <img src="" alt="Team 1 Logo" class="team-logo">
+                <p class="team-name" id="team-1-1"></p>
+              </div>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-1">
+                <p class="team-name"></p>
+                <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+          <div class="game-box" id="game2">
+            <div class="team" id="team-1-2">
+              <img src="" alt="Team 1 Logo" class="team-logo">
+              <p class="team-name"></p>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-2">
+              <p class="team-name"></p>
+              <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+          <div class="game-box" id="game3">
+            <div class="team" id="team-1-3">
+              <img src="" alt="Team 1 Logo" class="team-logo">
+              <p class="team-name"></p>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-3">
+              <p class="team-name"></p>
+              <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+          <div class="game-box" id="game4">
+            <div class="team" id="team-1-4">
+              <img src="" alt="Team 1 Logo" class="team-logo">
+              <p class="team-name"></p>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-4">
+              <p class="team-name"></p>
+              <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+          <div class="game-box" id="game5">
+            <div class="team" id="team-1-5">
+              <img src="" alt="Team 1 Logo" class="team-logo">
+              <p class="team-name"></p>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-5">
+              <p class="team-name"></p>
+              <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+          <div class="game-box" id="game6">
+            <div class="team" id="team-1-6">
+              <img src="" alt="Team 1 Logo" class="team-logo">
+              <p class="team-name"></p>
+            </div>
+            <div class="time"></div>
+            <div class="team" id="team-2-6">
+              <p class="team-name"></p>
+              <img src="" alt="Team 1 Logo" class="team-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="upcoming-social">
+        <div class="social-media">
+          <p>social media</p>
+        </div>
+        <div class="live-games">
+          <p>live games</p>
+        </div>
+      </div>
+      </div>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="assets/script.js"></script>
+  </body>
+
+  </html>
